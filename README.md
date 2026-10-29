@@ -4,9 +4,18 @@ Static marketing pages for WM996, the Malaysia and Singapore online entertainmen
 
 ## Preview
 
-GitHub Pages serves the `main` branch from the site root (no custom domain):
+Publish target is GitHub Pages from the `main` branch, site root, with no custom domain.
 
 **https://fd88solution-a11y.github.io/wm996-site/**
+
+That URL is the project Pages address for this repository. It starts serving after a repository admin turns Pages on:
+
+1. Open the repository **Settings → Pages**.
+2. Under **Build and deployment**, choose **Deploy from a branch**.
+3. Select branch `main` and folder `/ (root)`, then save.
+4. Leave **Custom domain** empty. Do not enter `wm996.xyz`.
+
+The token that pushed this site cannot change that setting (`pages` write and administration write are required). Do not work around it by attaching the production domain.
 
 Paths shipped:
 
