@@ -1,0 +1,6 @@
+# Production rules for https://wm996.xyz after an approved DNS cut.
+# HTML pages on the GitHub Pages preview send noindex,nofollow.
+User-agent: *
+Allow: /
+
+Sitemap: https://wm996.xyz/sitemap.xml
